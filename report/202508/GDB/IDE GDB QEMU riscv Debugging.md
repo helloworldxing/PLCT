@@ -65,7 +65,7 @@ int main() {
 2. 终端启动 QEMU：
 
    ```
-   qemu-system-riscv64 -machine virt -nographic -kernel Demo -S -gdb tcp::1234
+   qemu-system-riscv64 -machine virt -nographic -kernel Sum -S -gdb tcp::1234
    ```
 
    - `-S` → 开机暂停，等待调试器。

@@ -113,7 +113,7 @@ hello.elf: ELF 64-bit LSB executable, UCB RISC-V
 /home/hadoop/.local/share/ruyi/binaries/x86_64/qemu-system-riscv-upstream-8.2.0-ruyi.20240128/bin/qemu-system-riscv64 \
   -machine virt \
   -nographic \
-  -kernel hello.elf \
+  -kernel SumDemo1 \
   -S -gdb tcp::1234
 ```
 
